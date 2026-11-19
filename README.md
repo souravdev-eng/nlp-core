@@ -11,6 +11,7 @@ Each notebook explains every step in plain English (a note above each code cell)
 | # | Notebook | What you'll learn |
 |---|---|---|
 | 1 | [Tokenization with NLTK](01_nlp-foundation/1.tokenization_nltk.ipynb) | Chopping text into sentences and words using `sent_tokenize`, `word_tokenize`, `wordpunct_tokenize` and `TreebankWordTokenizer` |
+| 2 | [Stemming with NLTK](01_nlp-foundation/2.stemming.ipynb) | Reducing words to their root form with `PorterStemmer`, `RegexpStemmer` and `SnowballStemmer`, and where stemming falls short |
 
 ## 🛠️ Setup
 
@@ -38,8 +39,9 @@ Then open any notebook in VS Code / Jupyter and pick the **`.venv`** kernel.
 
 ```
 nlp-core/
-├── 01_nlp-foundation/        # Basics: tokenization, …
-│   └── 1.tokenization_nltk.ipynb
+├── 01_nlp-foundation/        # Basics: tokenization, stemming, …
+│   ├── 1.tokenization_nltk.ipynb
+│   └── 2.stemming.ipynb
 ├── main.py                   # Placeholder entry point
 ├── pyproject.toml            # Project config & dependencies
 └── uv.lock                   # Locked dependency versions
