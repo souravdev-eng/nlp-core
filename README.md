@@ -10,12 +10,12 @@ Each notebook explains every step in plain English (a note above each code cell)
 
 | # | Notebook | What you'll learn |
 |---|---|---|
-| 1 | [Tokenization with NLTK](01_nlp-foundation/1.tokenization_nltk.ipynb) | Chopping text into sentences and words using `sent_tokenize`, `word_tokenize`, `wordpunct_tokenize` and `TreebankWordTokenizer` |
-| 2 | [Stemming with NLTK](01_nlp-foundation/2.stemming.ipynb) | Reducing words to their root form with `PorterStemmer`, `RegexpStemmer` and `SnowballStemmer`, and where stemming falls short |
-| 3 | [Lemmatization with NLTK](01_nlp-foundation/3.lemmatization.ipynb) | Turning words into real dictionary roots with `WordNetLemmatizer`, using part-of-speech (`pos`) tags, and how it compares to stemming |
-| 4 | [Stopwords with NLTK](01_nlp-foundation/4.stopwords.ipynb) | Removing common low-meaning words with `stopwords`, then building a full cleaning pipeline (tokenize ➜ remove stopwords ➜ stem / lemmatize) on a real speech |
-| 5 | [Parts of Speech Tagging](01_nlp-foundation/5.parts_of_speech.ipynb) | Labelling each word as noun, verb, adjective, … with `nltk.pos_tag`, reading Penn Treebank tags, and why stopwords should stay in while tagging |
-| 6 | [Named Entity Recognition](01_nlp-foundation/6.named_entity_recognition.ipynb) | Finding people, places and organizations in text with `nltk.ne_chunk`, and the limits of NLTK's NER |
+| 1 | [Tokenization with NLTK](01_nlp_foundation/1.tokenization.ipynb) | Chopping text into sentences and words using `sent_tokenize`, `word_tokenize`, `wordpunct_tokenize` and `TreebankWordTokenizer` |
+| 2 | [Stemming with NLTK](01_nlp_foundation/2.stemming.ipynb) | Reducing words to their root form with `PorterStemmer`, `RegexpStemmer` and `SnowballStemmer`, and where stemming falls short |
+| 3 | [Lemmatization with NLTK](01_nlp_foundation/3.lemmatization.ipynb) | Turning words into real dictionary roots with `WordNetLemmatizer`, using part-of-speech (`pos`) tags, and how it compares to stemming |
+| 4 | [Stopwords with NLTK](01_nlp_foundation/4.stopwords.ipynb) | Removing common low-meaning words with `stopwords`, then building a full cleaning pipeline (tokenize ➜ remove stopwords ➜ stem / lemmatize) on a real speech |
+| 5 | [Parts of Speech Tagging](01_nlp_foundation/5.parts_of_speech.ipynb) | Labelling each word as noun, verb, adjective, … with `nltk.pos_tag`, reading Penn Treebank tags, and why stopwords should stay in while tagging |
+| 6 | [Named Entity Recognition](01_nlp_foundation/6.named_entity_recognition.ipynb) | Finding people, places and organizations in text with `nltk.ne_chunk`, and the limits of NLTK's NER |
 
 ## 🛠️ Setup
 
@@ -44,8 +44,8 @@ Then open any notebook in VS Code / Jupyter and pick the **`.venv`** kernel.
 
 ```
 nlp-core/
-├── 01_nlp-foundation/        # Basics: tokenization, stemming, lemmatization, stopwords, POS tagging, NER
-│   ├── 1.tokenization_nltk.ipynb
+├── 01_nlp_foundation/        # Basics: tokenization, stemming, lemmatization, stopwords, POS tagging, NER
+│   ├── 1.tokenization.ipynb
 │   ├── 2.stemming.ipynb
 │   ├── 3.lemmatization.ipynb
 │   ├── 4.stopwords.ipynb
